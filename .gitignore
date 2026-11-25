@@ -1,0 +1,38 @@
+# Environment Variables & Secrets (NEVER commit secrets to GitHub)
+.env
+.env.local
+.env.*
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+.venv/
+env/
+
+# Local SQLite databases (do not commit production / testing chat databases)
+*.db
+*.db-wal
+*.db-shm
+Secure_Chat_Application/database/*.db
+Secure_Chat_Application/database/*.db-wal
+Secure_Chat_Application/database/*.db-shm
+
+# Uploads & Temporary Media
+Secure_Chat_Application/uploads/*
+!Secure_Chat_Application/uploads/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

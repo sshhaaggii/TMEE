@@ -1,0 +1,21 @@
+# Web Framework & Real-Time Engine
+Flask>=3.0.0
+Flask-SocketIO>=5.3.6
+Flask-WTF>=1.2.1
+Werkzeug>=3.0.1
+python-dotenv>=1.0.1
+
+# End-to-End Cryptography Engine (Curve25519, HKDF, AES-256-GCM)
+cryptography>=42.0.0
+
+# Cloud Database & PostgreSQL Engine (Supabase Integration)
+psycopg2-binary>=2.9.10
+supabase>=2.34.1
+pg8000>=1.31.0
+
+# Asynchronous Server Workers
+eventlet>=0.35.1
+
+# Test Suite & HTTP/WebSocket Client Utilities
+requests>=2.31.0
+python-socketio[client]>=5.11.0

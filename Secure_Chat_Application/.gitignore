@@ -1,0 +1,26 @@
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local SQLite databases (do not commit production / testing chat databases)
+database/*.db
+database/*.db-wal
+database/*.db-shm
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
